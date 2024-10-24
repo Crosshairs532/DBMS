@@ -48,3 +48,37 @@ The purpose of the schema are :
 | VARCHAR(n)                                                                             |                           CHAR(n)                           |
 | n defines the maximum length a variable length upto                                    |     n defines the maximum length a variable length upto     |
 | it takes the space according to the variable length even it is specified to max length | whatever variable your store it always takes the max length |
+
+### Explain the purpose of the WHERE clause in a SELECT statement.
+
+```md
+The WHERE clause is used to filter the records in a table based on a specified condition.
+```
+
+### What are the LIMIT and OFFSET clauses used for?
+
+```md
+- #### LIMIT
+  - Specifies the maximum number of records to return.
+  - Often used to paginate results, allowing you to display a subset of data.
+- #### OFFSET
+  - Specifies the number of records to skip before starting to return records.
+  - Used in conjunction with LIMIT for pagination, allowing you to fetch records starting from a specific point.
+
+`SELECT * FROM customers LIMIT 10 OFFSET 20;`
+```
+
+### How can you perform data modification using UPDATE statements?
+
+```md
+Syntax
+`
+UPDATE table_name
+SET column1 = value1,
+    column2 = value2, ...
+WHERE condition;`
+
+table_name : selects the table i want to modify
+set - what is want to change
+where condition - where i want to change .
+```
