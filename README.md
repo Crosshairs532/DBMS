@@ -42,8 +42,9 @@ The purpose of the schema are :
 
 ### What is the difference between the VARCHAR and CHAR data types?
 
-| VARCHAR                                                              |     CHAR      |
-| -------------------------------------------------------------------- | :-----------: |
-| VARCHAR data type is used to store variable-length character strings | right-aligned |
-| VARCHAR(n)                                                           |   centered    |
-| n defines the maximum length a variable length fp upto               |   are neat    |
+| VARCHAR                                                                                |                            CHAR                             |
+| -------------------------------------------------------------------------------------- | :---------------------------------------------------------: |
+| VARCHAR data type is used to store variable-length character strings                   |      ‘CHAR' for storing fixed-length character strings      |
+| VARCHAR(n)                                                                             |                           CHAR(n)                           |
+| n defines the maximum length a variable length upto                                    |     n defines the maximum length a variable length upto     |
+| it takes the space according to the variable length even it is specified to max length | whatever variable your store it always takes the max length |
