@@ -95,3 +95,32 @@ where condition - where i want to change.
    `SELECT SUM(column_name) FROM table_name WHERE condition;`
 3. The `AVG` function computes the average value of a numeric column.
    `SELECT AVG(column_name) FROM table_name WHERE condition;`
+
+### What is the significance of the JOIN operation, and how does it work in PostgreSQL?
+
+```md
+- Data Integration: JOINs enable the integration of data from different tables, allowing for more comprehensive queries and insights.
+- Normalization: They support database normalization, where data is organized into separate tables to reduce redundancy.
+
+SELECT columns
+FROM table1
+INNER JOIN table2 ON table1.common_column = table2.common_column;
+```
+
+### Explain the GROUP BY clause and its role in aggregation operations.
+
+The GROUP BY a clause in PostgreSQL is a powerful tool used to divide rows returned by a ‘SELECT' statement into different groups. it is basically used with `aggregate` functions.
+
+Syntax
+
+```md
+SELECT
+column_1,
+column_2,
+computing_function(column_3)
+FROM
+table_name
+GROUP BY
+column_1,
+column_2;
+```
