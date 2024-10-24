@@ -84,3 +84,14 @@ table_name : selects the table i want to modify
 set - what is want to change
 where condition - where i want to change.
 ```
+
+### How can you calculate aggregate functions like COUNT, SUM, and AVG in PostgreSQL?
+
+1. The `COUNT` function counts the number of rows that match a specified condition.
+
+   `SELECT SUM(column_name) FROM table_name WHERE condition;`
+
+2. The `SUM` function calculates the total sum of a numeric column.
+   `SELECT SUM(column_name) FROM table_name WHERE condition;`
+3. The `AVG` function computes the average value of a numeric column.
+   `SELECT AVG(column_name) FROM table_name WHERE condition;`
