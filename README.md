@@ -79,6 +79,8 @@ column2 = value2,
 WHERE condition;
 ```
 
+```md
 table_name : selects the table i want to modify
 set - what is want to change
 where condition - where i want to change.
+```
