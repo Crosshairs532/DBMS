@@ -42,12 +42,8 @@ The purpose of the schema are :
 
 ### What is the difference between the VARCHAR and CHAR data types?
 
-```md
 | VARCHAR                                                              |     CHAR      |
 | -------------------------------------------------------------------- | :-----------: |
 | VARCHAR data type is used to store variable-length character strings | right-aligned |
 | VARCHAR(n)                                                           |   centered    |
 | n defines the maximum length a variable length fp upto               |   are neat    |
-
-``
-```
