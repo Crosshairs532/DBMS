@@ -71,10 +71,13 @@ The WHERE clause is used to filter the records in a table based on a specified c
 ### How can you perform data modification using UPDATE statements?
 
 Syntax
-`UPDATE table_name
+
+```md
+UPDATE table_name
 SET column1 = value1,
-    column2 = value2, ...
-WHERE condition;`
+column2 = value2,
+WHERE condition;
+```
 
 table_name : selects the table i want to modify
 set - what is want to change
